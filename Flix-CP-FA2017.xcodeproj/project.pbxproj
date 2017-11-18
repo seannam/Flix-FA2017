@@ -12,6 +12,7 @@
 		C7336D861FC009D500835C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7336D851FC009D500835C3C /* Assets.xcassets */; };
 		C7336D891FC009D500835C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7336D871FC009D500835C3C /* LaunchScreen.storyboard */; };
 		C7336D911FC00D2500835C3C /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7336D901FC00D2500835C3C /* NowPlayingViewController.swift */; };
+		C7336D931FC0143100835C3C /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7336D921FC0143100835C3C /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C7336D881FC009D500835C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7336D8A1FC009D500835C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7336D901FC00D2500835C3C /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
+		C7336D921FC0143100835C3C /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				C7336D871FC009D500835C3C /* LaunchScreen.storyboard */,
 				C7336D8A1FC009D500835C3C /* Info.plist */,
 				C7336D901FC00D2500835C3C /* NowPlayingViewController.swift */,
+				C7336D921FC0143100835C3C /* MovieCell.swift */,
 			);
 			path = "Flix-CP-FA2017";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				C7336D911FC00D2500835C3C /* NowPlayingViewController.swift in Sources */,
 				C7336D7F1FC009D500835C3C /* AppDelegate.swift in Sources */,
+				C7336D931FC0143100835C3C /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
