@@ -53,7 +53,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
             }
         }
         task.resume()
-        //activityIndicator.stopAnimating()
+        activityIndicator.stopAnimating()
     }
     
     override func didReceiveMemoryWarning() {
@@ -82,5 +82,14 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         cell.posterImageView.af_setImage(withURL: posterURL)
         
         return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        if let indexPath = tableView.indexPath(for: cell) {
+            let movie = movies[indexPath.row]
+            let detailsViewController = segue.destination as! DetailsViewController
+            detailsViewController.movie = movie
+        }
     }
 }
